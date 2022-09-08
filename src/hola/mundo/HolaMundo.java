@@ -53,27 +53,66 @@ public class HolaMundo {
          
          int resta = num2 - num1;*/
          
-         String nombre = "Lucio";
+        //Ejercicio 4 Guia 6
+         /*String nombre = "Lucio";
          
          int edad;
          
          Scanner leer = new Scanner(System.in);
          
+               
          System.out.println("Ingrese su edad");
          
          edad = leer.nextInt();
          
-         System.out.println("Hola " + nombre + " tenes " + edad + " años");
-                        
+         System.out.println("Hola " + nombre + " tenes " + edad + " años");*/
          
+         //Ejercicio 5 Guia 6
          
+         /*Scanner leer = new Scanner (System.in);
+                  
+         double num1,num2;
+         
+         boolean prueba = true;
+         
+         char letra;
+                  
+         System.out.println("Ingrese un numero");
+         
+         num1 = leer.nextDouble();
+         
+         System.out.println("Ingrese un numero");
+         
+         num2 = leer.nextDouble();
+         
+         System.out.println("Ingrese una letra");
+         
+         letra = leer.next().charAt(0);
+         
+         System.out.println(letra);
+         System.out.println(num1);
+         System.out.println(num2);
+         
+         if (num1!=num2)
+             
+             prueba = false;
+         
+          System.out.println("Los numeros son iguales " + prueba);*/   
+         
+         //ejercio 5 guia 6 deteccion de errores
+         /*
+            Scanner leer = new Scanner(System.in); 
+            System.out.println("Ingresa tu edad");
+            int edad = leer.nextInt();
+            System.out.println("Ingresa tu nombre");
+            String nombre = leer.next();*/
+         
+        
+         
+                  
     }
          
-                 
-         
-
-               
-        
+          
  }
     
 
