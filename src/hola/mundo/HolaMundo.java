@@ -292,7 +292,120 @@ ingresado seguido de tantos asteriscos como indique su valor*/
         System.out.println("");*/
        
         
-
+        //Ejercicio 3 Guia 6
+        /*Escribir un programa que pida una frase y la muestre toda en mayúsculas
+y después toda en minúsculas. */
+//Nota: investigar la función toUpperCase() y toLowerCase() en Java
+        
+        /*Scanner leer = new Scanner(System.in);
+        
+        String frase;
+        
+        System.out.println("Ingrese una frase");
+        
+        frase = leer.nextLine();
+        
+        System.out.println(frase.toUpperCase());   
+        
+        System.out.println("");
+        
+        System.out.println(frase.toLowerCase());*/
+        
+        //Ejercicio 4 Guia 6
+        
+       /* Dada una cantidad de grados centígrados se debe mostrar su equivalente en grados 
+Fahrenheit. La fórmula correspondiente es: F = 32 + (9 * C / 5)*/
+        
+        /*Scanner leer = new Scanner(System.in);
+        
+        float gradosC, gradosF;
+        
+        System.out.println("Ingrese los grados a convertir");
+        
+        gradosC = leer.nextFloat();
+        
+        gradosF = 32 + (9 * gradosC / 5);
+        
+        System.out.println("El equivalente en Farenheit es " + gradosF + " Farenheit");*/
+        
+        //Ejercicio 5 Guia 6
+        
+        /* Escribir un programa que lea un número entero por teclado y muestre por pantalla el 
+doble, el triple y la raíz cuadrada de ese número. Nota: investigar la función Math.sqrt().*/
+        
+        /*Scanner leer = new Scanner(System.in);
+        
+       
+        double doble, tri, cuadrada, num;
+        
+        System.out.println("Ingrese un numero entero");
+        
+        num = leer.nextFloat();
+        
+        doble = num * 2;
+        
+        tri = num * 3;
+        
+        cuadrada = Math.sqrt(num);
+        
+        System.out.println("El doble del numero ingresado es " + doble + " el triple " + tri + " la raiz cuadrada es " + cuadrada);*/
+        
+        //Ejercicio 1 Guia 6 condicinales
+        
+        /* Crear un programa que dado un numero determine si es par o impar.*/
+        
+        /*Scanner leer = new Scanner(System.in);
+        
+        float num;
+        
+        System.out.println("Ingrese un numero");
+        
+        num = leer.nextFloat();
+        
+        if( num == 0){
+            
+            System.out.println("El numero ingresado segun algunas corrientes es NULO");
+          
+        }
+        
+        else if ( num % 2 == 0)
+            
+              System.out.println("El numero ingresado es par");
+        
+        else{
+            
+            System.out.println("El numero ingresado es impar");
+                    
+        }*/
+        
+        //Ejercicio 7 Guia 6 condicionales
+        
+        /*Crear un programa que pida una frase y si esa frase es igual a “eureka” el programa 
+pondrá un mensaje de Correcto, sino mostrará un mensaje de Incorrecto. Nota: investigar 
+la función equals() en Java.*/
+        
+        /*Scanner leer = new Scanner(System.in);
+        
+        String frase;
+        
+              
+        System.out.println("Ingrese una frase");
+        
+        frase = leer.nextLine();
+        
+        if(frase.equals("Eureka")){
+     
+                System.out.println("La frase es correcta");
+        }
+        else{
+                
+                System.out.println("no coincide con la frase");}*/
+        
+    
+        
+        
+    
+        
     }
 
 }
