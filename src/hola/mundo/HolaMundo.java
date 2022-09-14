@@ -396,13 +396,11 @@ la función equals() en Java.*/
         if(frase.equals("Eureka")){
      
                 System.out.println("La frase es correcta");
+                
         }
         else{
                 
                 System.out.println("no coincide con la frase");}*/
-        
-    
-        
         
     
         
