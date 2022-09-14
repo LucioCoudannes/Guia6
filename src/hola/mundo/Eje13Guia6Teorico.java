@@ -31,12 +31,13 @@ define su tipo de dato de tal manera que te permita alojar sus nombres más adel
         
         String[] Equipo = new String [tam];
         
-        
+        leer.nextLine();
+                
         for (int i = 0; i < tam; i++) {
             
             System.out.println("Ingrese los nombres de los jugadores");
             
-            Equipo[i-1] = leer.nextLine();
+            Equipo[i] = leer.nextLine();
             
             
             
