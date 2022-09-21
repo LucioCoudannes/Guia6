@@ -62,7 +62,7 @@ public class Eje18Guia6 {
             
             for (int j = 0; j < 4; j++) {
                 
-                System.out.print("| " + matriz[i][j]+ "| ");
+                System.out.print("| " + matriz[i][j]+ " |");
                 
             }
             System.out.println(" ");
