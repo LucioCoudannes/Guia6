@@ -55,7 +55,7 @@ la matriz M en la cual empieza el primer elemento de la submatriz P.*/
             }
 
         }
-        for (int i = 0; i < 8; i++) {
+        /*for (int i = 0; i < 8; i++) {
             
             for (int j = 0; j < 8; j++) {
                 
@@ -81,11 +81,11 @@ la matriz M en la cual empieza el primer elemento de la submatriz P.*/
                 
             }
             
-        }
+        }*/
     
 
 
-        /*for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 8; i++) {
 
             for (int j = 0; j < 8; j++) {
 
@@ -114,7 +114,7 @@ la matriz M en la cual empieza el primer elemento de la submatriz P.*/
 
             }
 
-        }*/
+        }
         
         if (bandera==false) {
             
